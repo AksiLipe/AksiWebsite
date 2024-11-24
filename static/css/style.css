@@ -1,0 +1,29 @@
+body {
+    margin: 0; /* Убираем отступы по умолчанию */
+    padding: 0; /* Убираем внутренние отступы, если они есть */
+    height: 100vh; /* Устанавливаем высоту body на 100% от высоты окна */
+    width: 100vw; /* Устанавливаем ширину body на 100% от ширины окна */
+}
+
+.navbar {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    border: 2px solid brown;
+}
+
+.main-content {
+    height: 90%;
+    width: 90%;
+    border: 2px solid brown;
+    display: flex;
+    margin: auto;
+    /*box-shadow: -2px 2px 5px #FD6969;*/
+}
+
+.footer {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    border: 2px solid brown;
+}
